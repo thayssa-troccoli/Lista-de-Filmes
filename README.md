@@ -1,4 +1,4 @@
-# Lista de filmes - Consumindo API
+# Lista de filmes - Prática e Consumindo API
 
 Projeto criado para a disciplina Desenvolvimento para web II, no curso Análise e Desenvolvimento de Sistemas (ADS), do IFSP, campus de Caraguatatuba.
 
