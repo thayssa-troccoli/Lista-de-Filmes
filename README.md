@@ -1,6 +1,6 @@
 # Lista de filmes - Prática e Consumindo API
 
-Projeto criado para a disciplina Desenvolvimento para web II, no curso Análise e Desenvolvimento de Sistemas (ADS), do IFSP, campus de Caraguatatuba.
+Projeto criado para a disciplina Desenvolvimento para web I, no curso Análise e Desenvolvimento de Sistemas (ADS), do IFSP, campus de Caraguatatuba.
 
 O código faz duas requisições para a API The Movie Database (TMDb):
 1 - Uma para buscar filmes por nome (/search/movie).
