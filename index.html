@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha lista de filmes para assistir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu">
+        <button id="search-btn">Procurar Filmes</button>
+        <button id="add-movie-btn">Adicionar Filmes</button>
+    </div>
+    <div id="movies-container"></div>
+
+    <div id="search-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-search-modal">&times;</span>
+            <h2>Procurar Filmes</h2>
+            <input type="text" id="search-input" placeholder="Coloque o nome do filme">
+            <button id="search-movie-btn">Procurar</button>
+            <div id="search-results"></div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h2>Add/Editar Filmes</h2>
+            <form id="movie-form">
+                <label for="movie-title">Título:</label>
+                <input type="text" id="movie-title" required>
+                <label for="movie-image">Image URL:</label>
+                <input type="text" id="movie-image" required>
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
